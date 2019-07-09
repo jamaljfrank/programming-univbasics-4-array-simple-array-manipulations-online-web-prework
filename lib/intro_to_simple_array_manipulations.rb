@@ -41,12 +41,12 @@ def using_flatten(array)
 end
 
 def using_delete(array, string)
-  array.delete 
+  array.delete(string) 
 end
 
-def using_delete(array, integer)
+def using_delete(array, 1)
   array.delete(1)
-
+end
 
   
 
